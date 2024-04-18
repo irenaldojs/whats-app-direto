@@ -17,10 +17,10 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-input-mask": "^2.0.4",
-    "react-modal": "^3.16.1",
-    "vite-plugin-pwa": "^0.19.8"
+    "react-modal": "^3.16.1"
   },
   "devDependencies": {
+    "vite-plugin-pwa": "^0.19.8",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
