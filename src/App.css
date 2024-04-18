@@ -1,0 +1,20 @@
+.bg-main {
+  background-image: linear-gradient(#034d3c, #128247);
+}
+
+.bg-button {
+  background-color: #034d3c;
+}
+
+.shadow-button {
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+.icone {
+  height: 128;
+  width: 128;
+}
+
+.ls-1 {
+  letter-spacing: 2px;
+}
