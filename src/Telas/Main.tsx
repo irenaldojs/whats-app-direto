@@ -12,7 +12,7 @@ function Main() {
     const cleanedNumber = telefone.replace(/\D/g, "");
 
     // Verifique se o número de telefone está vazio
-    if (cleanedNumber.length < 11) {
+    if (cleanedNumber.length !== 10 && cleanedNumber.length !== 11) {
       setShowAlerta(true);
       return;
     }
@@ -27,7 +27,7 @@ function Main() {
   };
 
   return (
-    <body className="bg-transparent">
+    <div className="bg-transparent">
       <div className="App-header text-white mb-5">
         <h1 className="mb-2">
           WhatsApp Direto{" "}
@@ -75,7 +75,7 @@ function Main() {
         </div>
         <br />
       </div>
-    </body>
+    </div>
   );
 }
 

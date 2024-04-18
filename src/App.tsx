@@ -49,7 +49,7 @@ function App() {
         )}
 
         {/* Rodape */}
-        <footer>
+        <div>
           <div className="text-white text-end fs-5 fst-italic">
             desenvolvido por{" "}
             <a
@@ -59,7 +59,7 @@ function App() {
               Irenaldo Júnior
             </a>
           </div>
-        </footer>
+        </div>
       </div>
     </div>
   );
