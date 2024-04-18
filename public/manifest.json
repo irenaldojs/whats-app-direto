@@ -1,6 +1,6 @@
 {
   "short_name": "WhatsApp Direto",
-  "name": "Create React App Sample",
+  "name": "Aplicativo WhatsApp Direto",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,5 +22,4 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#034d3c"
-  
 }
